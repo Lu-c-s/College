@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1490836135 source:c:\users\lucas\desktop\estrutura de dados\exerlista\8\blista.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+
+1490830747 c:\users\lucas\desktop\estrutura de dados\exerlista\8\blista.h
+
+1490836176 source:c:\users\lucas\desktop\estrutura de dados\exerlista\8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+
+1491000963 source:c:\users\lucas\desktop\estrutura de dados\exerlista\8n\blista.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+
+1490830747 c:\users\lucas\desktop\estrutura de dados\exerlista\8n\blista.h
+
+1491000990 source:c:\users\lucas\desktop\estrutura de dados\exerlista\8n\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+
+1492097274 source:f:\estrutura de dados\exerlista\8try\blista.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+
+1490830748 f:\estrutura de dados\exerlista\8try\blista.h
+
+1491007112 source:f:\estrutura de dados\exerlista\8try\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BLista.h"
+

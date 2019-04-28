@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1490999449 source:c:\users\lucas\desktop\estrutura de dados\exerlista\6n\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1490991989 c:\users\lucas\desktop\estrutura de dados\exerlista\6n\lista.h
+
+1490999530 source:c:\users\lucas\desktop\estrutura de dados\exerlista\6n\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+

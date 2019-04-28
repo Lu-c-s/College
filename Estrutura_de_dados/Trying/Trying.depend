@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1496532082 source:e:\estrutura de dados\trying\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

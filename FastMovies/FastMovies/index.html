@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Fast Movies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/resCarousel.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong:300,400,400i,500,600,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="css/letreiro.scss" rel="stylesheet/scss" type="text/scss">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="topnav">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="#meuFooter">Contact</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <div class="container" style="width: 100%; margin: 0; padding: 0;">
+
+        <div class="col-md-12 divCartaz">
+            <p style="margin: auto;">
+                <i class="fas fa-star"></i> Destaque da Semana
+            </p>
+        </div>
+
+    </div>
+
+    <!--Destaques-->
+    <div class="grid_container">
+        <div class="poster_destaque">
+            <img src="moviePosters/d58677de7d7f64d820bfa646a78d95df.jpg" id="poster">
+            <div class="overlay">
+                <span id="movie_title">
+                    <p>Bohemian Rhapsody</p>
+                    <a class="information" data-toggle="collapse" href="#collapseExample4" role="button">
+                        <i class="fas fa-plus-circle fa-3x" style="color: yellow;"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="trailer_destaque" style="opacity:1 !important;">
+            <iframe class="embed_trailer" src="https://www.youtube.com/embed/GryRsVhOvxo?rel=0&amp;controls=1&amp;loop=1&amp;showinfo=0;autoplay=0&mute=1&loop=1&playlist=GryRsVhOvxo"
+                allow="autoplay" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <br>
+
+    <!--home-->
+    <div class="container" style="width: 100%; margin: 0; padding: 0;">
+
+        <div class="col-md-12 divCartaz">
+            <p style="margin: auto;">
+                <i class="fas fa-film"></i> Em Cartaz
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container p8" id="divContainer" style="margin-top: 30px;">
+
+        <!-- ************************************** INÍCIO CARROSSEL "EM CARTAZ" ************************************** -->
+        <div class="resCarousel" data-items="1-2-3-4-5" data-slide="2" data-speed="900">
+            <div class="resCarousel-inner" id="eventLoad">
+
+                <!-- Cada filme é inserido aqui pelo arquivo js/appendCarousel.js -->
+
+            </div>
+            <button class='btn btn-default leftRs'><span class="glyphicon glyphicon-chevron-left"></span></button>
+            <button class='btn btn-default rightRs'><span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+        <!-- ************************************** FIM CARROSSEL "EM CARTAZ" ************************************** -->
+
+        <!-- ************************************** INÍCIO COLLAPSES DO CARROSSEL "EM CARTAZ" ********************** -->
+        <div id="resCollapsable"></div>
+                <!-- Os collapsible são adicionados através deu um click listerner no js/appendCarousel -->
+        <!-- ********** FIM COLLAPSE 1 ********** -->
+    </div>
+
+    <div class="container" style="width: 100%; margin-top: 50px; padding: 0;">
+
+        <div class="col-md-12 divCartaz">
+            <p style="margin: auto;">
+                <i class="fas fa-bolt"></i> Lançamentos
+            </p>
+        </div>
+    </div>
+
+    <div class="container p8" style="margin-top: 30px;">
+        <!-- Return to Top -->
+        <a href="javascript:" id="return-to-top"><i><span class="glyphicon glyphicon-chevron-up"></i></a>
+        <!-- Test the scroll -->
+
+        <div style="height:2000px;">
+            <div class="logo">
+            </div>
+        </div>
+
+        <hr>
+
+        <footer id="meuFooter" class="footer-distributed">
+            <div class="footer-left">
+                <h3>Fast<span>Movies</span></h3>
+                <ul class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </ul>
+                <p class="footer-company-name">FastMovies &copy; 2018</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Instituto Federal de Brasília</span> Brasília, DF</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1 555 123456</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@company.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor
+                    lacus vehicula sit amet.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-medium"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/resCarouselCustom.js"></script>
+        <script src="js/resCarousel.js"></script>
+        <script src="js/appendCarousel.js"></script>
+        <script>
+            $(document.body).on('click', ':not(.panel) > [data-toggle="collapse"][data-parent]', function() {
+    var parent = $(this).data('parent');
+    var target = $(this).data('target') || $(this).prop('hash');
+    $(parent).find('.collapse.in').not(target).collapse('hide');
+});
+        </script>
+</body>
+
+</html>

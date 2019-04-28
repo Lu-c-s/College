@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1490032889 source:c:\users\lucas\desktop\estrutura de dados\pconjunto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BibConjunto.h"
+
+1489981389 c:\users\lucas\desktop\estrutura de dados\pconjunto\bibconjunto.h
+
+1490032168 source:c:\users\lucas\desktop\estrutura de dados\pconjunto\bibconjunto.c
+	<stdio.h>
+	<stdlib.h>
+	"BibConjunto.h"
+

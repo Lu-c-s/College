@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1493402916 source:c:\users\lucas\desktop\estrutura de dados\exerpilhafila\2\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"Fila.h"
+
+1493402794 c:\users\lucas\desktop\estrutura de dados\exerpilhafila\2\fila.h
+
+1493391880 source:c:\users\lucas\desktop\estrutura de dados\exerpilhafila\2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Fila.h"
+

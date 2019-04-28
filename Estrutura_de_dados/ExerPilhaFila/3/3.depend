@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1493391170 source:c:\users\lucas\desktop\estrutura de dados\exerpilhafila\3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Bib.h"
+
+1493403350 c:\users\lucas\desktop\estrutura de dados\exerpilhafila\3\bib.h
+

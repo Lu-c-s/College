@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1494458081 source:e:\estrutura de dados\avaliacao1\4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

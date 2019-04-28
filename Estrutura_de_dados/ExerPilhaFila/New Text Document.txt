@@ -1,0 +1,17 @@
+EXERCÍCIOS PILHAS E FILAS:
+
+ok Faça uma função que receba duas Pilhas e verifique se elas são iguais, retornando verdadeiro ou falso.
+ 
+ok Faça uma função que receba duas Filas e verifique se elas são iguais, retornando verdadeiro ou falso.
+  
+ok Faça uma função que receba uma Pilha e uma Fila e verifique se as informações contidas nelas são iguais, retornando verdadeiro ou falso (ver ordem dos elementos).
+ 
+ok Desenvolva uma rotina chamada popN(n) para desempilhar n elementos a partir do topo da pilha
+
+(n entendi o que é pra fazer) Faça um programa que para cada número inteiro de uma sequência terminada por zero,  inseridos em uma Pilha insira o equivalente em binário utilizando Fila.
+
+ok Faça uma função que receba três filas, duas já preenchidas em ordem crescente e preencha a última com os valores das duas primeiras em ordem crescente.
+
+OK Considere uma pilha P vazia e uma fila F não vazia. Utilizando apenas os testes de fila e pilha vazias, as operações Enfileira, Desenfileira, Empilha, Desempilha, e uma variável aux do TipoItem, escreva uma função que inverta a ordem dos elementos da fila.
+  
+ OK Construa uma função que recebe como parâmetros uma Lista L1 e um valor x e que retire os primeiros x da lista L1, inserindo-os no fim de L1. Suponha que a lista está inicialmente preenchida. É proibido o uso de uma lista auxiliar.

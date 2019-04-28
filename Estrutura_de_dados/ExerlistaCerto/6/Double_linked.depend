@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1492000036 source:f:\estrutura de dados\double_linked\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1491998398 f:\estrutura de dados\double_linked\lista.h
+
+1491999518 source:f:\estrutura de dados\double_linked\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1492265852 source:c:\users\lucas\desktop\estrutura de dados\exerlistacerto\6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1492266266 c:\users\lucas\desktop\estrutura de dados\exerlistacerto\6\lista.h
+
+1492265710 source:c:\users\lucas\desktop\estrutura de dados\exerlistacerto\6\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+

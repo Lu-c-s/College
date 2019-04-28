@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1496494783 source:e:\estrutura de dados\arvore\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arv.h"
+
+1496494467 e:\estrutura de dados\arvore\arv.h
+
+1496494840 source:e:\estrutura de dados\arvore\arv.c
+	<stdio.h>
+	<stdlib.h>
+	"Arv.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1490822984 source:c:\users\lucas\desktop\estrutura de dados\exerlista\1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BibLista.h"
+
+1490822961 c:\users\lucas\desktop\estrutura de dados\exerlista\1\biblista.h
+
+1490823866 source:c:\users\lucas\desktop\estrutura de dados\exerlista\1\biblista.c
+	<stdio.h>
+	<stdlib.h>
+	"BibLista.h"
+
